@@ -9,8 +9,7 @@ Working links to a Home/About Me page, a Contact Me page and a Portfolio Page. R
 ## CSS Changes Made
 I used CSS for changing text and background colors. The selection within bootstrap is poor. I do not know of any other ways to access a bigger color library within bootstrap.
 ## Collaborators
-While this was done individually, it was done with the aid of my study group.
-Also with instruction from Fil and Daniel.
+With instruction from Fil and Daniel.
 ___
 [Filipe Laborde-Basto's](https://github.com/c0dehot) GitHub.
 ___
