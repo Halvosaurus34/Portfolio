@@ -1,7 +1,7 @@
 #  My Portfolio
 
 # Description
-We were asked to create a responsive portfolio website that included a functional NavBar, responsive images and layout. The main code for this project is bootstrap.
+We were asked to create a responsive portfolio website that included a functional NavBar, responsive images and layout. The main code for this project is bootstrap
 ## Issues
 The primary issue for this project was making the website look good with all devices and making sure to use bootstrap in an efficient and correct way.
 ## Website Features
