@@ -11,10 +11,17 @@ I used CSS for changing text and background colors. The selection within bootstr
 ## Collaborators
 While this was done individually, it was done with the aid of my study group.
 Also with instruction from Fil and Daniel.
+___
 [Filipe Laborde-Basto's](https://github.com/c0dehot) GitHub.
+___
 [Daniel Cabellos]() GitHub.
+___
 ## Links
 [GitHub Repository](https://github.com/Halvosaurus34/Portfolio)
+___
 [My Portfolio](https://halvosaurus34.github.io/Portfolio/)
+___
 I used [Font Awesome](https://fontawesome.com/) for my Icons.
+___
 I also used [Bootstrap](https://getbootstrap.com/).
+___
