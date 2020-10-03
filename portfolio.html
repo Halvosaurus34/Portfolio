@@ -1,26 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <script src="https://kit.fontawesome.com/09df56e628.js" crossorigin="anonymous"></script>
-    <link rel="stylesheet" href="assets/css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <script
+      src="https://kit.fontawesome.com/09df56e628.js"
+      crossorigin="anonymous"
+    ></script>
+    <link rel="stylesheet" href="assets/css/style.css" />
+    <script
+      src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+      integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+      integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+      integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+      crossorigin="anonymous"
+    ></script>
     <title>Levi Halvorson</title>
-    
-</head>
-<body>
-    
-  <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-    <a class="navbar-brand">Levi Halvorson</a>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-      <span><i class="fas fa-bomb"></i></span>
-    </button>
-  
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+      <a class="navbar-brand" href="index.html">Levi Halvorson</a>
+      <button
+        class="navbar-toggler"
+        type="button"
+        data-toggle="collapse"
+        data-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent"
+        aria-expanded="false"
+        aria-label="Toggle navigation"
+      >
+        <span><i class="fas fa-bomb"></i></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav mr-auto">
           <li class="nav-item active">
-            <a class="nav-link pl-5" href="index.html">Home<span class="sr-only">(current)</span></a>
+            <a class="nav-link" href="index.html"
+              >Home<span class="sr-only">(current)</span></a
+            >
           </li>
           <li class="nav-item">
             <a class="nav-link" href="contact.html">Contact Me</a>
@@ -29,77 +60,193 @@
             <a class="nav-link" href="portfolio.html">Portfolio</a>
           </li>
         </ul>
-        <ul class="navbar-nav">
-          <li class="nav-item pl-5 ">
-            <a class="nav-link" href="https://www.linkedin.com/in/levi-halvorson/" target="blank"><i class="fab fa-linkedin-in"></i></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="https://github.com/Halvosaurus34" target="blank"><i class="fab fa-github"></i></a>
-            <li class="nav-item">
-              <a class="nav-link" href="mailto://lhalvorson34@gmail.com" target="blank"><i class="far fa-envelope"></i></a>
-          </li>
-          <li class="nav-item">
-            <a class="nav-link" href="tel:+14038774423" target="blank"><i class="fas fa-phone"></i></a>
-          </li>
-        </ul>
-      </div>
-  </nav>
+        <div class="row">
+          <div class="nav-item">
+            <a
+              class="nav-link text-light"
+              href="https://www.linkedin.com/in/levi-halvorson/"
+              target="blank"
+              ><i class="fab fa-linkedin-in"></i
+            ></a>
+          </div>
+          <div class="nav-item">
+            <a
+              class="nav-link text-light"
+              href="https://github.com/Halvosaurus34"
+              target="blank"
+              ><i class="fab fa-github"></i
+            ></a>
+          </div>
 
-  <div class="container bg-light mt-4">
-    <div class="display-4 ml-5">
-       My Portfolio
-    </div>
-      <div class="row m-5">
-        <div class="card p-2 col-lg-4 col-md-6 col-sm-12" style="width: 18rem;">
-            <img src="https://alscofirstaid.com.au/wp-content/uploads/2014/01/placeholder-150x150.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-dark">Go somewhere</a>
-            </div>
+          <div class="nav-item">
+            <a
+              class="nav-link text-light"
+              href="mailto://lhalvorson34@gmail.com"
+              target="blank"
+              ><i class="far fa-envelope"></i
+            ></a>
           </div>
-          <div class="card p-2 col-lg-4 col-md-6 col-sm-12" style="width: 18rem;">
-            <img src="https://alscofirstaid.com.au/wp-content/uploads/2014/01/placeholder-150x150.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-dark">Go somewhere</a>
-            </div>
+          <div class="nav-item">
+            <a
+              class="nav-link text-light"
+              href="tel:+14038774423"
+              target="blank"
+              ><i class="fas fa-phone"></i
+            ></a>
           </div>
-          <div class="card p-2 col-lg-4 col-md-6 col-sm-12" style="width: 18rem;">
-            <img src="https://alscofirstaid.com.au/wp-content/uploads/2014/01/placeholder-150x150.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-dark">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card p-2 col-lg-4 col-md-6 col-sm-12" style="width: 18rem;">
-            <img src="https://alscofirstaid.com.au/wp-content/uploads/2014/01/placeholder-150x150.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-dark">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card p-2 col-lg-4 col-md-6 col-sm-12" style="width: 18rem;">
-            <img src="https://alscofirstaid.com.au/wp-content/uploads/2014/01/placeholder-150x150.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-dark">Go somewhere</a>
-            </div>
-          </div>
-          <div class="card p-2 col-lg-4 col-md-6 col-sm-12" style="width: 18rem;">
-            <img src="https://alscofirstaid.com.au/wp-content/uploads/2014/01/placeholder-150x150.png" class="card-img-top" alt="...">
-            <div class="card-body">
-              <h5 class="card-title">Card title</h5>
-              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-              <a href="#" class="btn btn-dark">Go somewhere</a>
-            </div>
-          </div>
+        </div>
       </div>
-  </div>
-      
-</body>
+    </nav>
+
+    <div
+      class="container contactCont rounded shadow p-2 mt-3 mb-3"
+      id="portCont"
+    >
+      <div class="display-4 ml-5">My Portfolio</div>
+      <div class="row m-3">
+        <div
+          class="card p-2 col-lg-4 col-md-6 col-sm-12 mb-2"
+          style="width: 18rem"
+        >
+          <img
+            src="assets/images/weatherIcon.PNG"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Weather App</h5>
+            <p class="card-text">
+              An application featuring real time weather searching with use of
+              local storage.
+            </p>
+            <a
+              href="https://halvosaurus34.github.io/Weather-App/"
+              class="btn btn-dark"
+              >Website</a
+            >
+            <a
+              href="https://github.com/Halvosaurus34/Weather-App"
+              class="btn btn-dark"
+              >GitHub</a
+            >
+          </div>
+        </div>
+        <div
+          class="card p-2 col-lg-4 col-md-6 col-sm-12 mb-2"
+          style="width: 18rem"
+        >
+          <img
+            src="assets/images/quizIcon.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Code Quiz</h5>
+            <p class="card-text">
+              A timed quiz about JavaScript! Test your skills and try to get the
+              highscore!
+            </p>
+            <br />
+            <a
+              href="https://halvosaurus34.github.io/Code-Quiz/index.html"
+              class="btn btn-dark"
+              >Website</a
+            >
+            <a
+              href="https://github.com/Halvosaurus34/Code-Quiz"
+              class="btn btn-dark"
+              >GitHub</a
+            >
+          </div>
+        </div>
+        <div
+          class="card p-2 col-lg-4 col-md-6 col-sm-12 mb-2"
+          style="width: 18rem"
+        >
+          <img
+            src="assets/images/dayPlannerIcon.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Day Planner</h5>
+            <p class="card-text">
+              Plan out your day from 9Am to 5PM. Colour scheme will change
+              depending on what time it is!
+            </p>
+            <a
+              href="https://halvosaurus34.github.io/Day-Planner/index.html"
+              class="btn btn-dark"
+              >Website</a
+            >
+            <a
+              href="https://github.com/Halvosaurus34/Day-Planner"
+              class="btn btn-dark"
+              >GitHub</a
+            >
+          </div>
+        </div>
+        <div
+          class="card p-2 col-lg-4 col-md-6 col-sm-12 mb-2"
+          style="width: 18rem"
+        >
+          <img
+            src="assets/images/stockIcon.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">WallStreet Simulator</h5>
+            <p class="card-text">
+              My first group project! Buy and sell stocks with simulated
+              currency!
+            </p>
+            <br />
+            <a href="#" class="btn btn-dark">Website</a>
+            <a
+              href="https://github.com/Halvosaurus34/Project-1"
+              class="btn btn-dark"
+              >GitHub</a
+            >
+          </div>
+        </div>
+        <div
+          class="card p-2 col-lg-4 col-md-6 col-sm-12 mb-2"
+          style="width: 18rem"
+        >
+          <img
+            src="https://alscofirstaid.com.au/wp-content/uploads/2014/01/placeholder-150x150.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-dark">Go somewhere</a>
+          </div>
+        </div>
+        <div
+          class="card p-2 col-lg-4 col-md-6 col-sm-12 mb-2"
+          style="width: 18rem"
+        >
+          <img
+            src="https://alscofirstaid.com.au/wp-content/uploads/2014/01/placeholder-150x150.png"
+            class="card-img-top"
+            alt="..."
+          />
+          <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">
+              Some quick example text to build on the card title and make up the
+              bulk of the card's content.
+            </p>
+            <a href="#" class="btn btn-dark">Go somewhere</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
 </html>
