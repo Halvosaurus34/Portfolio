@@ -22,7 +22,7 @@ With instruction from Fil and Daniel.
 
 ---
 
-![Website ScreenShot](./assets/images/screenshot.png)
+![Website ScreenShot](Portfolio\assets\images\screenshot.PNG)
 
 ---
 
