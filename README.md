@@ -20,9 +20,7 @@ With instruction from Fil and Daniel.
 
 ## Links
 
----
-
-![Website ScreenShot](assets\images\screenshot.PNG)
+![Website ScreenShot](assets/images/screenshot.PNG)
 
 ---
 
