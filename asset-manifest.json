@@ -1,26 +1,26 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.6dea0f05.chunk.css",
-    "main.js": "/portfolio/static/js/main.bec28629.chunk.js",
-    "main.js.map": "/portfolio/static/js/main.bec28629.chunk.js.map",
-    "runtime-main.js": "/portfolio/static/js/runtime-main.0b431999.js",
-    "runtime-main.js.map": "/portfolio/static/js/runtime-main.0b431999.js.map",
-    "static/js/2.0df3410b.chunk.js": "/portfolio/static/js/2.0df3410b.chunk.js",
-    "static/js/2.0df3410b.chunk.js.map": "/portfolio/static/js/2.0df3410b.chunk.js.map",
-    "static/js/3.7662f237.chunk.js": "/portfolio/static/js/3.7662f237.chunk.js",
-    "static/js/3.7662f237.chunk.js.map": "/portfolio/static/js/3.7662f237.chunk.js.map",
+    "main.css": "/portfolio/static/css/main.e8f58880.chunk.css",
+    "main.js": "/portfolio/static/js/main.57753099.chunk.js",
+    "main.js.map": "/portfolio/static/js/main.57753099.chunk.js.map",
+    "runtime-main.js": "/portfolio/static/js/runtime-main.64320418.js",
+    "runtime-main.js.map": "/portfolio/static/js/runtime-main.64320418.js.map",
+    "static/js/2.7c5e3b46.chunk.js": "/portfolio/static/js/2.7c5e3b46.chunk.js",
+    "static/js/2.7c5e3b46.chunk.js.map": "/portfolio/static/js/2.7c5e3b46.chunk.js.map",
+    "static/js/3.f3c652f6.chunk.js": "/portfolio/static/js/3.f3c652f6.chunk.js",
+    "static/js/3.f3c652f6.chunk.js.map": "/portfolio/static/js/3.f3c652f6.chunk.js.map",
     "index.html": "/portfolio/index.html",
-    "static/css/main.6dea0f05.chunk.css.map": "/portfolio/static/css/main.6dea0f05.chunk.css.map",
-    "static/js/2.0df3410b.chunk.js.LICENSE.txt": "/portfolio/static/js/2.0df3410b.chunk.js.LICENSE.txt",
+    "static/css/main.e8f58880.chunk.css.map": "/portfolio/static/css/main.e8f58880.chunk.css.map",
+    "static/js/2.7c5e3b46.chunk.js.LICENSE.txt": "/portfolio/static/js/2.7c5e3b46.chunk.js.LICENSE.txt",
     "static/media/headshot.b19413cc.jpg": "/portfolio/static/media/headshot.b19413cc.jpg",
     "static/media/quizIcon.0fc852e6.png": "/portfolio/static/media/quizIcon.0fc852e6.png",
     "static/media/resume.4cfe5cc2.pdf": "/portfolio/static/media/resume.4cfe5cc2.pdf",
     "static/media/weatherIcon.6dc21615.PNG": "/portfolio/static/media/weatherIcon.6dc21615.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.0b431999.js",
-    "static/js/2.0df3410b.chunk.js",
-    "static/css/main.6dea0f05.chunk.css",
-    "static/js/main.bec28629.chunk.js"
+    "static/js/runtime-main.64320418.js",
+    "static/js/2.7c5e3b46.chunk.js",
+    "static/css/main.e8f58880.chunk.css",
+    "static/js/main.57753099.chunk.js"
   ]
 }
