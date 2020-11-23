@@ -1,4 +1,4 @@
-.App {
+/* .App {
   text-align: center;
 }
 
@@ -35,4 +35,37 @@
   to {
     transform: rotate(360deg);
   }
+} */
+
+body {
+  background-color: #939abf;
+}
+.media {
+  background-color: #788288;
+}
+.media h5 {
+  color: #24201f;
+}
+.media p {
+  color: #24201f;
+}
+.p-2 {
+  color: #24201f;
+}
+
+.navbar {
+  background-color: #60606c;
+  color: white;
+}
+
+#mainCont {
+  background-color: #e7e3d8;
+}
+
+.contactCont {
+  background-color: #e7e3d8;
+}
+
+.btn {
+  background-color: #404354;
 }
