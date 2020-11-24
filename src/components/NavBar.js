@@ -1,6 +1,6 @@
 import React from 'react'
 import {
-    BrowserRouter as Router,
+    HashRouter as Router,
     Switch,
     Route,
     Link,
@@ -11,7 +11,7 @@ import Portfolio from './Portfolio'
 
 export default function NavBar(){
     return (
-        <Router>
+        <Router basename={process.env.PUBLIC_URL}>
             <nav className="navbar navbar-expand-lg navbar-light bg-light row">
                 <button class="navbar-toggler ml-2" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
