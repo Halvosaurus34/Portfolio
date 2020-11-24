@@ -3,6 +3,9 @@ import quiz from '../assets/quizIcon.png'
 import weather from '../assets/weatherIcon.PNG'
 import dayPlanner from '../assets/dayPlannerIcon.png'
 import stock from '../assets/stockIcon.png'
+import fitness from '../assets/fitness.png'
+import ecomm from '../assets/ecomm.png'
+
 
 
 export default function Portfolio(){
@@ -110,6 +113,50 @@ export default function Portfolio(){
               <a href="https://halvosaurus34.github.io/WallStreet-Simulator/" className="btn btn-dark mr-1">Website</a>
               <a
                 href="https://github.com/Halvosaurus34/Project-1"
+                className="btn btn-dark"
+                >GitHub</a
+              >
+            </div>
+          </div>
+          <div
+            className="card p-2 col-lg-4 col-md-6 col-sm-12 mb-2"
+          >
+            <img
+              src={fitness}
+              className="card-img-top"
+              alt="..."
+            />
+            <div className="card-body">
+              <h5 className="card-title">Fitness Tracker</h5>
+              <p className="card-text">
+                A fitness app where I use MongoDB to store info.
+              </p>
+              <br />
+              <a href="https://salty-eyrie-48528.herokuapp.com/" className="btn btn-dark mr-1">Website</a>
+              <a
+                href="https://github.com/Halvosaurus34/Fitness-Tracker"
+                className="btn btn-dark"
+                >GitHub</a
+              >
+            </div>
+          </div>
+          <div
+            className="card p-2 col-lg-4 col-md-6 col-sm-12 mb-2"
+          >
+            <img
+              src={ecomm}
+              className="card-img-top"
+              alt="..."
+            />
+            <div className="card-body">
+              <h5 className="card-title">E-Commerce Website</h5>
+              <p className="card-text">
+                My Second group project! Buy and post product to sell.
+              </p>
+              <br />
+              <a href="https://stormy-depths-87128.herokuapp.com/" className="btn btn-dark mr-1">Website</a>
+              <a
+                href="https://github.com/zeroshii/Project-2"
                 className="btn btn-dark"
                 >GitHub</a
               >
