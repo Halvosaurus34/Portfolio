@@ -60,6 +60,12 @@ body {
 
 .navbar li {
   color: grey;
+  border-bottom: 2px solid transparent;
+}
+
+.navbar li:hover {
+  color: rgb(114, 113, 113);
+  border-bottom: 2px solid rgb(114, 113, 113);
 }
 
 #mainCont {
@@ -71,5 +77,5 @@ body {
 }
 
 .btn {
-  background-color: #797c91;
+  background-color: #404354;
 }
