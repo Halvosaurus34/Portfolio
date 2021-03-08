@@ -38,7 +38,7 @@
 } */
 
 body {
-  background-color: #939abf;
+  background-color: #f8f8ff;
 }
 .media {
   background-color: #788288;
@@ -54,18 +54,22 @@ body {
 }
 
 .navbar {
-  background-color: #60606c;
+  background-color: #f8f8ff;
   color: white;
 }
 
+.navbar li {
+  color: grey;
+}
+
 #mainCont {
-  background-color: #e7e3d8;
+  background-color: #d9d9df;
 }
 
 .contactCont {
-  background-color: #e7e3d8;
+  background-color: #d9d9df;
 }
 
 .btn {
-  background-color: #404354;
+  background-color: #797c91;
 }
