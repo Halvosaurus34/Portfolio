@@ -4,7 +4,7 @@ export default function NavBar() {
   return (
     <nav className="navbar navbar-expand-lg row">
       <button
-        class="navbar-toggler ml-2"
+        className="navbar-toggler ml-2"
         type="button"
         data-toggle="collapse"
         data-target="#navbarNav"
@@ -12,7 +12,7 @@ export default function NavBar() {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span class="navbar-toggler-icon"></span>
+        <span className="navbar-toggler-icon"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ml-3">
