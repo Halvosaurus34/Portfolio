@@ -1,5 +1,6 @@
 import React from "react";
 import resume from "../assets/resume.pdf";
+import { Link } from "react-router-dom";
 
 export default function Contact() {
   return (
@@ -44,9 +45,11 @@ export default function Contact() {
             rows="3"
           ></textarea>
         </div>
-        <button type="submit" className="btn btn-dark mt-2">
-          Submit
-        </button>
+        <Link to="/">
+          <button type="submit" className="btn btn-dark mt-2">
+            Submit
+          </button>
+        </Link>
       </form>
     </div>
   );
