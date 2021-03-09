@@ -13,14 +13,20 @@ export default function Contact() {
         My Resume
       </a>
       <form>
-        <div className="form-group">
+        <div className="form-group" method="POST" data-netlify="true">
           <label for="name1">Name</label>
-          <input type="password" className="form-control" id="name1" />
+          <input
+            type="password"
+            className="form-control"
+            id="name1"
+            name="name"
+          />
         </div>
         <div className="form-group">
           <label for="exampleInputEmail1">Email address</label>
           <input
             type="email"
+            name="email"
             className="form-control"
             id="exampleInputEmail1"
             aria-describedby="emailHelp"
@@ -31,7 +37,12 @@ export default function Contact() {
         </div>
         <div className="form-group">
           <label for="message1">Message</label>
-          <textarea className="form-control" id="message1" rows="3"></textarea>
+          <textarea
+            className="form-control"
+            id="message1"
+            name="message"
+            rows="3"
+          ></textarea>
         </div>
         <button type="submit" className="btn btn-dark mt-2">
           Submit
