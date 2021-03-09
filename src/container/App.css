@@ -67,7 +67,9 @@ body {
   color: rgb(114, 113, 113);
   border-bottom: 2px solid rgb(114, 113, 113);
 }
-
+.navbar-toggler {
+  color: grey;
+}
 #mainCont {
   background-color: #d9d9df;
 }

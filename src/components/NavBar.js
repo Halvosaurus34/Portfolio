@@ -12,19 +12,19 @@ export default function NavBar() {
         aria-expanded="false"
         aria-label="Toggle navigation"
       >
-        <span className="navbar-toggler-icon"></span>
+        <span className="fas fa-hamburger"></span>
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ml-3">
           <Link className="navbar-brand" to="/">
-            <li className="nav-item active">Levi Halvorson</li>
+            <li className="nav-item active text-dark">Levi Halvorson</li>
           </Link>
 
           <Link className="nav-link" to="/portfolio">
-            <li className="nav-item active">Portfolio</li>
+            <li className="nav-item active text-dark">Portfolio</li>
           </Link>
           <Link className="nav-link" to="/contact">
-            <li className="nav-item active">Contact Me</li>
+            <li className="nav-item active text-dark">Contact Me</li>
           </Link>
         </ul>
         <ul className="navbar-nav col justify-content-end ml-3">
