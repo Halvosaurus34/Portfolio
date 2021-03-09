@@ -12,12 +12,7 @@ export default function Contact() {
       <a className="btn btn-dark mb-2" href={resume}>
         My Resume
       </a>
-      <form
-        name="contactMe"
-        method="POST"
-        data-netlify="true"
-        action="/#/Contact"
-      >
+      <form name="contactMe" netlify action="/#/Contact">
         <div className="form-group">
           <label for="name1">Name</label>
           <input type="text" className="form-control" id="name1" name="name" />
