@@ -4,7 +4,7 @@ import weather from "../assets/weatherIcon.PNG";
 import dayPlanner from "../assets/dayPlannerIcon.png";
 import stock from "../assets/stockIcon.png";
 import fitness from "../assets/fitness.png";
-import ecomm from "../assets/ecomm.png";
+import wetBat from "../assets/wetBatIcon2.PNG";
 
 export default function Portfolio() {
   return (
@@ -127,21 +127,27 @@ export default function Portfolio() {
           </div>
         </div>
         <div className="card p-2 col-lg-4 col-md-6 col-sm-12 mb-2">
-          <img src={ecomm} className="card-img-top" alt="..." />
+          <img
+            src={wetBat}
+            className="card-img-top"
+            alt="..."
+            style={{ height: "20rem" }}
+          />
           <div className="card-body">
-            <h5 className="card-title">E-Commerce Website</h5>
+            <h5 className="card-title">Wet-Bat Challenge</h5>
             <p className="card-text">
-              My Second group project! Buy and post product to sell.
+              A coding challenge to make a travel website where you can create
+              travel quotes and view a list of quotes.
             </p>
             <br />
             <a
-              href="https://stormy-depths-87128.herokuapp.com/"
+              href="https://shielded-badlands-63088.herokuapp.com/"
               className="btn btn-dark mr-1"
             >
               Website
             </a>
             <a
-              href="https://github.com/zeroshii/Project-2"
+              href="https://github.com/Halvosaurus34/wet-bat-challenge"
               className="btn btn-dark"
             >
               GitHub
