@@ -16,7 +16,7 @@ export default function Contact() {
         name="contactMe"
         method="POST"
         data-netlify="true"
-        action="/components/Contact"
+        action="/#/Contact"
       >
         <div className="form-group">
           <label for="name1">Name</label>
