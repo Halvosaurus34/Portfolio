@@ -1,5 +1,4 @@
 import React from "react";
-import quiz from "../assets/quizIcon.png";
 import weather from "../assets/weatherIcon.PNG";
 import dayPlanner from "../assets/dayPlannerIcon.png";
 import stock from "../assets/stockIcon.png";
