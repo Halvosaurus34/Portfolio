@@ -1,6 +1,39 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import ContactButton from "./contact-buttons";
+import NavButtons from "./Nav-Buttons";
 export default function NavBar() {
+  const contactButtons = [
+    {
+      link: "https://www.linkedin.com/in/levi-halvorson/",
+      icon: "fab fa-linkedin-in",
+    },
+    {
+      link: "https://github.com/Halvosaurus34",
+      icon: "fab fa-github",
+    },
+    {
+      link: "mailto://lhalvorson34@gmail.com",
+      icon: "far fa-envelope",
+    },
+    {
+      link: "tel:+14038774423",
+      icon: "fas fa-phone",
+    },
+  ];
+  const navButtons = [
+    {
+      to: "/",
+      text: "Levi Halvorson",
+    },
+    {
+      to: "/portfolio",
+      text: "Portfolio",
+    },
+    {
+      to: "/contact",
+      text: "Contact Me",
+    },
+  ];
   return (
     <nav className="navbar navbar-expand-lg row">
       <button
@@ -16,54 +49,14 @@ export default function NavBar() {
       </button>
       <div className="collapse navbar-collapse" id="navbarNav">
         <ul className="navbar-nav ml-3">
-          <Link className="navbar-brand" to="/">
-            <li className="nav-item active text-dark">Levi Halvorson</li>
-          </Link>
-
-          <Link className="nav-link" to="/portfolio">
-            <li className="nav-item active text-dark">Portfolio</li>
-          </Link>
-          <Link className="nav-link" to="/contact">
-            <li className="nav-item active text-dark">Contact Me</li>
-          </Link>
+          {navButtons.map((cell) => {
+            return <NavButtons to={cell.to} text={cell.text} />;
+          })}
         </ul>
         <ul className="navbar-nav col justify-content-end ml-3">
-          <li className="nav-item active">
-            <a
-              className="nav-link text-dark"
-              href="https://www.linkedin.com/in/levi-halvorson/"
-              target="blank"
-            >
-              <i className="fab fa-linkedin-in"></i>
-            </a>
-          </li>
-          <li className="nav-item active">
-            <a
-              className="nav-link text-dark"
-              href="https://github.com/Halvosaurus34"
-              target="blank"
-            >
-              <i className="fab fa-github"></i>
-            </a>
-          </li>
-          <li className="nav-item active">
-            <a
-              className="nav-link text-dark"
-              href="mailto://lhalvorson34@gmail.com"
-              target="blank"
-            >
-              <i className="far fa-envelope"></i>
-            </a>
-          </li>
-          <li className="nav-item active">
-            <a
-              className="nav-link text-dark"
-              href="tel:+14038774423"
-              target="blank"
-            >
-              <i className="fas fa-phone"></i>
-            </a>
-          </li>
+          {contactButtons.map((cell) => {
+            return <ContactButton link={cell.link} icon={cell.icon} />;
+          })}
         </ul>
       </div>
     </nav>
