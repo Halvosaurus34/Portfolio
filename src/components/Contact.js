@@ -3,6 +3,9 @@ import resume from "../assets/resume.pdf";
 import { Link } from "react-router-dom";
 
 export default function Contact() {
+  const onSubmit = (event) => {
+    event.preventDefault();
+  };
   return (
     <div className="container contactCont rounded shadow p-3 mt-3 w-auto">
       <div className="display-4 mb-4 mt-3">Contact Me</div>
@@ -13,18 +16,13 @@ export default function Contact() {
       <a className="btn btn-dark mb-2" href={resume}>
         My Resume
       </a>
-      <form
-        name="contactMe"
-        method="POST"
-        data-netlify="true"
-        action="/#/Contact"
-      >
+      <form name="contactMe" data-netlify="true" onSubmit={onSubmit}>
         <div className="form-group">
-          <label for="name1">Name</label>
+          <label htmlFor="name1">Name</label>
           <input type="text" className="form-control" id="name1" name="name" />
         </div>
         <div className="form-group">
-          <label for="exampleInputEmail1">Email address</label>
+          <label htmlFor="exampleInputEmail1">Email address</label>
           <input
             type="email"
             name="email"
@@ -37,7 +35,7 @@ export default function Contact() {
           </small>
         </div>
         <div className="form-group">
-          <label for="message1">Message</label>
+          <label htmlFor="message1">Message</label>
           <textarea
             className="form-control"
             id="message1"
