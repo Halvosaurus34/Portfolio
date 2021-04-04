@@ -1,6 +1,5 @@
 import React from "react";
 import resume from "../assets/resume.pdf";
-import { Link } from "react-router-dom";
 
 export default function Contact() {
   const onSubmit = (event) => {
@@ -16,7 +15,12 @@ export default function Contact() {
       <a className="btn btn-dark mb-2" href={resume}>
         My Resume
       </a>
-      <form name="contactMe" data-netlify="true" onSubmit={onSubmit}>
+      <form
+        name="contactMe"
+        action="POST"
+        data-netlify="true"
+        onSubmit={onSubmit}
+      >
         <div className="form-group">
           <label htmlFor="name1">Name</label>
           <input type="text" className="form-control" id="name1" name="name" />
@@ -43,11 +47,12 @@ export default function Contact() {
             rows="3"
           ></textarea>
         </div>
-        <Link to="/">
-          <button type="submit" className="btn btn-dark mt-2">
-            Submit
-          </button>
-        </Link>
+        <div className="form-group">
+          <div data-netlify-recaptcha="true"></div>
+        </div>
+        <button type="submit" className="btn btn-dark mt-2">
+          Submit
+        </button>
       </form>
     </div>
   );
