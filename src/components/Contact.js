@@ -7,7 +7,12 @@ export default function Contact() {
   const [message, setMessage] = useState("");
 
   const handleSubmit = (e) => {
-    const info = { name: name, email: email, message: message };
+    const info = {
+      "form-name": "contactMe",
+      name: name,
+      email: email,
+      message: message,
+    };
     console.log(info);
     fetch("/", {
       method: "POST",
