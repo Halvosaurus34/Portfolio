@@ -55,7 +55,13 @@ export default function NavBar() {
         </ul>
         <ul className="navbar-nav col justify-content-end ml-3">
           {contactButtons.map((cell) => {
-            return <ContactButton link={cell.link} icon={cell.icon} />;
+            return (
+              <ContactButton
+                link={cell.link}
+                icon={cell.icon}
+                text={cell.text}
+              />
+            );
           })}
         </ul>
       </div>

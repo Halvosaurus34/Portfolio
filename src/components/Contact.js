@@ -1,7 +1,32 @@
 import React from "react";
 import resume from "../assets/resume.pdf";
-
+import { useState } from "react";
 export default function Contact() {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const encode = (data) => {
+    return Object.keys(data)
+      .map(
+        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+      )
+      .join("&");
+  };
+
+  const handleSubmit = (e) => {
+    const info = { name: name, email: email, message: message };
+    fetch("/", {
+      method: "POST",
+      headers: { "Content-Type": "application/x-www-form-urlencoded" },
+      body: encode({ "form-name": "contact", ...info }),
+    })
+      .then(() => alert("Success!"))
+      .catch((error) => alert(error));
+
+    e.preventDefault();
+  };
+
   return (
     <div className="container contactCont rounded shadow p-3 mt-3 w-auto">
       <div className="display-4 mb-4 mt-3">Contact Me</div>
@@ -12,16 +37,17 @@ export default function Contact() {
       <a className="btn btn-dark mb-2" href={resume}>
         My Resume
       </a>
-      <form
-        name="contactMe"
-        method="POST"
-        data-netlify="true"
-        data-netlify-recaptcha="true"
-        netlify
-      >
+      <form name="contactMe" onSubmit={handleSubmit}>
         <div className="form-group">
           <label htmlFor="name">Name</label>
-          <input type="text" className="form-control" id="name" name="name" />
+          <input
+            type="text"
+            className="form-control"
+            id="name"
+            name="name"
+            value={name}
+            onChange={(event) => setName(event.target.value)}
+          />
         </div>
         <div className="form-group">
           <label htmlFor="email">Email address</label>
@@ -31,6 +57,8 @@ export default function Contact() {
             className="form-control"
             id="email"
             aria-describedby="emailHelp"
+            value={email}
+            onChange={(event) => setEmail(event.target.value)}
           />
           <small id="emailHelp" className="form-text text-muted">
             We'll never share your email with anyone else.
@@ -43,6 +71,8 @@ export default function Contact() {
             id="message"
             name="message"
             rows="3"
+            value={message}
+            onChange={(event) => setMessage(event.target.value)}
           ></textarea>
         </div>
         <button type="submit" className="btn btn-dark mt-2">

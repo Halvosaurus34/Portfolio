@@ -4,7 +4,9 @@ function contactButtons(props) {
   return (
     <div>
       <Link className="navbar-brand" to={props.to}>
-        <li className="nav-item active text-dark">{props.text}</li>
+        <li className="nav-item active text-dark" key={props.text}>
+          {props.text}
+        </li>
       </Link>
     </div>
   );
