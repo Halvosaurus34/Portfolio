@@ -2,9 +2,6 @@ import React from "react";
 import resume from "../assets/resume.pdf";
 
 export default function Contact() {
-  const onSubmit = (event) => {
-    event.preventDefault();
-  };
   return (
     <div className="container contactCont rounded shadow p-3 mt-3 w-auto">
       <div className="display-4 mb-4 mt-3">Contact Me</div>
