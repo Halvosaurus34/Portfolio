@@ -12,7 +12,12 @@ export default function Contact() {
       <a className="btn btn-dark mb-2" href={resume}>
         My Resume
       </a>
-      <form name="contactMe" method="POST" data-netlify="true">
+      <form
+        name="contactMe"
+        method="POST"
+        data-netlify="true"
+        data-netlify-recaptcha="true"
+      >
         <div className="form-group">
           <label htmlFor="name">Name</label>
           <input type="text" className="form-control" id="name" name="name" />
@@ -39,7 +44,6 @@ export default function Contact() {
             rows="3"
           ></textarea>
         </div>
-        <div data-netlify-recaptcha="true"></div>
         <button type="submit" className="btn btn-dark mt-2">
           Submit
         </button>
