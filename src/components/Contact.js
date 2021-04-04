@@ -17,6 +17,7 @@ export default function Contact() {
         method="POST"
         data-netlify="true"
         data-netlify-recaptcha="true"
+        netlify
       >
         <div className="form-group">
           <label htmlFor="name">Name</label>
