@@ -37,7 +37,12 @@ export default function Contact() {
       <a className="btn btn-dark mb-2" href={resume}>
         My Resume
       </a>
-      <form name="contactMe" onSubmit={handleSubmit}>
+      <form
+        name="contactMe"
+        onSubmit={handleSubmit}
+        data-netlify-recaptcha="true"
+        data-netlify="true"
+      >
         <div className="form-group">
           <label htmlFor="name">Name</label>
           <input
