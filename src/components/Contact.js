@@ -6,22 +6,15 @@ export default function Contact() {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-  const encode = (data) => {
-    return Object.keys(data)
-      .map(
-        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
-      )
-      .join("&");
-  };
-
   const handleSubmit = (e) => {
     const info = { name: name, email: email, message: message };
+    console.log(info);
     fetch("/", {
       method: "POST",
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: encode({ "form-name": "contact", ...info }),
+      body: info,
     })
-      .then(() => alert("Success! ", info))
+      .then(() => alert("Success! "))
       .catch((error) => alert(error));
 
     e.preventDefault();
