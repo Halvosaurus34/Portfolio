@@ -15,23 +15,18 @@ export default function Contact() {
       <a className="btn btn-dark mb-2" href={resume}>
         My Resume
       </a>
-      <form
-        name="contactMe"
-        action="POST"
-        data-netlify="true"
-        onSubmit={onSubmit}
-      >
+      <form name="contactMe" action="POST" data-netlify="true">
         <div className="form-group">
-          <label htmlFor="name1">Name</label>
-          <input type="text" className="form-control" id="name1" name="name" />
+          <label htmlFor="name">Name</label>
+          <input type="text" className="form-control" id="name" name="name" />
         </div>
         <div className="form-group">
-          <label htmlFor="exampleInputEmail1">Email address</label>
+          <label htmlFor="email">Email address</label>
           <input
             type="email"
             name="email"
             className="form-control"
-            id="exampleInputEmail1"
+            id="email"
             aria-describedby="emailHelp"
           />
           <small id="emailHelp" className="form-text text-muted">
@@ -39,17 +34,15 @@ export default function Contact() {
           </small>
         </div>
         <div className="form-group">
-          <label htmlFor="message1">Message</label>
+          <label htmlFor="message">Message</label>
           <textarea
             className="form-control"
-            id="message1"
+            id="message"
             name="message"
             rows="3"
           ></textarea>
         </div>
-        <div className="form-group">
-          <div data-netlify-recaptcha="true"></div>
-        </div>
+        <div data-netlify-recaptcha="true"></div>
         <button type="submit" className="btn btn-dark mt-2">
           Submit
         </button>
