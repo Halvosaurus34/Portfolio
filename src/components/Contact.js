@@ -21,7 +21,7 @@ export default function Contact() {
       headers: { "Content-Type": "application/x-www-form-urlencoded" },
       body: encode({ "form-name": "contact", ...info }),
     })
-      .then(() => alert("Success!"))
+      .then(() => alert("Success! ", info))
       .catch((error) => alert(error));
 
     e.preventDefault();
