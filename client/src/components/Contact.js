@@ -1,26 +1,39 @@
 import React from "react";
 import resume from "../assets/resume.pdf";
 import { useState } from "react";
+import axios from "axios";
 export default function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
+  const encode = (data) => {
+    return Object.keys(data)
+      .map(
+        (key) => encodeURIComponent(key) + "=" + encodeURIComponent(data[key])
+      )
+      .join("&");
+  };
+
   const handleSubmit = (e) => {
-    const info = {
-      "form-name": "contactMe",
-      name: name,
-      email: email,
-      message: message,
-    };
-    console.log(info);
-    fetch("/", {
-      method: "POST",
-      headers: { "Content-Type": "application/x-www-form-urlencoded" },
-      body: info,
-    })
-      .then(() => alert("Success! "))
-      .catch((error) => alert(error));
+    const info = { name: name, email: email, message: message };
+    if (!name || !email | !message) {
+      alert("Please fill out all fields");
+      return;
+    }
+    console.log(encode({ "form-name": "contact", ...info }));
+    axios
+      .post("/", {
+        name: name,
+        email: email,
+        message: message,
+      })
+      .then(function (response) {
+        console.log(response);
+      })
+      .catch(function (error) {
+        console.log(error);
+      });
 
     e.preventDefault();
   };
