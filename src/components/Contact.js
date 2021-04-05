@@ -1,7 +1,8 @@
 import React from "react";
 import resume from "../assets/resume.pdf";
 import { useState } from "react";
-import axios from "axios";
+import { Link } from "react-router-dom";
+
 export default function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
@@ -22,19 +23,6 @@ export default function Contact() {
       return;
     }
     console.log(encode({ "form-name": "contact", ...info }));
-    axios
-      .post("/", {
-        name: name,
-        email: email,
-        message: message,
-      })
-      .then(function (response) {
-        console.log(response);
-      })
-      .catch(function (error) {
-        console.log(error);
-      });
-
     e.preventDefault();
   };
 
@@ -91,9 +79,11 @@ export default function Contact() {
             onChange={(event) => setMessage(event.target.value)}
           ></textarea>
         </div>
-        <button type="submit" className="btn btn-dark mt-2">
-          Submit
-        </button>
+        <Link to="/">
+          <button type="submit" className="btn btn-dark mt-2">
+            Submit
+          </button>
+        </Link>
       </form>
     </div>
   );
