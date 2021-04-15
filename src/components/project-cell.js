@@ -14,14 +14,18 @@ export const ProjectCell = (props) => {
         <p className="card-text">{props.description}</p>
         <br />
         {props.websiteLink ? (
-          <a href={props.websiteLink} className="btn btn-dark mr-1">
+          <a
+            href={props.websiteLink}
+            target="blank"
+            className="btn btn-dark mr-1"
+          >
             Website
           </a>
         ) : (
           ""
         )}
         {props.gitHubLink ? (
-          <a href={props.gitHubLink} className="btn btn-dark">
+          <a href={props.gitHubLink} target="blank" className="btn btn-dark">
             GitHub
           </a>
         ) : (
