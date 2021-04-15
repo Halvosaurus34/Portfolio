@@ -1,5 +1,7 @@
 import React from "react";
 import ContactButton from "./contact-buttons";
+import resume from "../assets/resume.pdf";
+
 import NavButtons from "./Nav-Buttons";
 export default function NavBar() {
   const contactButtons = [
@@ -54,15 +56,20 @@ export default function NavBar() {
           })}
         </ul>
         <ul className="navbar-nav col justify-content-end ml-3">
-          {contactButtons.map((cell) => {
-            return (
-              <ContactButton
-                link={cell.link}
-                icon={cell.icon}
-                text={cell.text}
-              />
-            );
-          })}
+          <a className="btn btn-dark mb-2 mr-3" target="blank" href={resume}>
+            My Resume
+          </a>
+          <div className="icons d-flex flex-row justify-content-around">
+            {contactButtons.map((cell) => {
+              return (
+                <ContactButton
+                  link={cell.link}
+                  icon={cell.icon}
+                  text={cell.text}
+                />
+              );
+            })}
+          </div>
         </ul>
       </div>
     </nav>
