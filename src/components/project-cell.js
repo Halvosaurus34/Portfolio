@@ -12,6 +12,8 @@ export const ProjectCell = (props) => {
       <div className="card-body">
         <h5 className="card-title">{props.title}</h5>
         <p className="card-text">{props.description}</p>
+        <h5>Technolgies Used: </h5>
+        <p>{props.tech}</p>
         <br />
         {props.websiteLink ? (
           <a

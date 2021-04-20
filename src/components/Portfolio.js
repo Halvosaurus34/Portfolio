@@ -16,12 +16,14 @@ export default function Portfolio() {
         "A coding challenge to make a travel website where you can create travel quotes and view a list of quotes.",
       websiteLink: "https://shielded-badlands-63088.herokuapp.com/",
       gitHubLink: "https://github.com/Halvosaurus34/wet-bat-challenge",
+      tech: "NodeJS, MySQL, Express, ReactJS",
     },
     {
       img: editor,
       title: "JS-Scribblify",
       description: "An interactive coding environment I published to npm!",
       gitHubLink: "https://github.com/Halvosaurus34/jbook",
+      tech: "Typescript, Redux, ReactJS",
     },
     {
       img: weather,
@@ -30,6 +32,7 @@ export default function Portfolio() {
         "An application featuring real time weather searching with use of local storage.",
       websiteLink: "https://halvosaurus34.github.io/Weather-App/",
       gitHubLink: "https://github.com/Halvosaurus34/Weather-App",
+      tech: "API, JavaScript, CSS, HTML, local storage",
     },
     {
       img: dayPlanner,
@@ -38,6 +41,7 @@ export default function Portfolio() {
         "Plan out your day from 9Am to 5PM. Colour scheme will change depending on what time it is!",
       websiteLink: "https://halvosaurus34.github.io/Day-Planner/index.html",
       gitHubLink: "https://github.com/Halvosaurus34/Day-Planner",
+      tech: "JavaScript, CSS, HTML, Bootstrsap, Moment.js",
     },
     {
       img: stock,
@@ -46,6 +50,7 @@ export default function Portfolio() {
         "My first group project! Buy and sell stocks with simulated currency!",
       websiteLink: "https://halvosaurus34.github.io/WallStreet-Simulator/",
       gitHubLink: "https://github.com/Halvosaurus34/Project-1",
+      tech: "API, JavaScript, CSS, HTML",
     },
     {
       img: fitness,
@@ -53,6 +58,7 @@ export default function Portfolio() {
       description: "A fitness app where I use MongoDB to store info.",
       websiteLink: "https://salty-eyrie-48528.herokuapp.com/",
       gitHubLink: "https://github.com/Halvosaurus34/Fitness-Tracker",
+      tech: "Express, MongoDB, HTML, CSS",
     },
   ];
   return (
@@ -70,6 +76,7 @@ export default function Portfolio() {
             description={cell.description}
             websiteLink={cell.websiteLink ? cell.websiteLink : null}
             gitHubLink={cell.gitHubLink}
+            tech={cell.tech}
           />
         ))}
       </div>
