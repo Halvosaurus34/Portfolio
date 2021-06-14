@@ -1,27 +1,27 @@
 {
   "files": {
-    "main.css": "/static/css/main.1501bbaa.chunk.css",
-    "main.js": "/static/js/main.ffddf20b.chunk.js",
-    "main.js.map": "/static/js/main.ffddf20b.chunk.js.map",
-    "runtime-main.js": "/static/js/runtime-main.577768f2.js",
-    "runtime-main.js.map": "/static/js/runtime-main.577768f2.js.map",
-    "static/js/2.8edcebe7.chunk.js": "/static/js/2.8edcebe7.chunk.js",
-    "static/js/2.8edcebe7.chunk.js.map": "/static/js/2.8edcebe7.chunk.js.map",
-    "static/js/3.f3c652f6.chunk.js": "/static/js/3.f3c652f6.chunk.js",
-    "static/js/3.f3c652f6.chunk.js.map": "/static/js/3.f3c652f6.chunk.js.map",
+    "main.css": "/static/css/main.835191bd.chunk.css",
+    "main.js": "/static/js/main.686d8bdf.chunk.js",
+    "main.js.map": "/static/js/main.686d8bdf.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.aa7e53a3.js",
+    "runtime-main.js.map": "/static/js/runtime-main.aa7e53a3.js.map",
+    "static/js/2.1bce502f.chunk.js": "/static/js/2.1bce502f.chunk.js",
+    "static/js/2.1bce502f.chunk.js.map": "/static/js/2.1bce502f.chunk.js.map",
+    "static/js/3.3b64c680.chunk.js": "/static/js/3.3b64c680.chunk.js",
+    "static/js/3.3b64c680.chunk.js.map": "/static/js/3.3b64c680.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.1501bbaa.chunk.css.map": "/static/css/main.1501bbaa.chunk.css.map",
-    "static/js/2.8edcebe7.chunk.js.LICENSE.txt": "/static/js/2.8edcebe7.chunk.js.LICENSE.txt",
-    "static/media/ecomm.807ff138.png": "/static/media/ecomm.807ff138.png",
+    "static/css/main.835191bd.chunk.css.map": "/static/css/main.835191bd.chunk.css.map",
+    "static/js/2.1bce502f.chunk.js.LICENSE.txt": "/static/js/2.1bce502f.chunk.js.LICENSE.txt",
     "static/media/headshot.b19413cc.jpg": "/static/media/headshot.b19413cc.jpg",
-    "static/media/quizIcon.0fc852e6.png": "/static/media/quizIcon.0fc852e6.png",
-    "static/media/resume.2aabe7b8.pdf": "/static/media/resume.2aabe7b8.pdf",
-    "static/media/weatherIcon.6dc21615.PNG": "/static/media/weatherIcon.6dc21615.PNG"
+    "static/media/memories.1b91c0ad.png": "/static/media/memories.1b91c0ad.png",
+    "static/media/resume.fbeff834.pdf": "/static/media/resume.fbeff834.pdf",
+    "static/media/weatherIcon.6dc21615.PNG": "/static/media/weatherIcon.6dc21615.PNG",
+    "static/media/wetBatIcon2.1baadf65.PNG": "/static/media/wetBatIcon2.1baadf65.PNG"
   },
   "entrypoints": [
-    "static/js/runtime-main.577768f2.js",
-    "static/js/2.8edcebe7.chunk.js",
-    "static/css/main.1501bbaa.chunk.css",
-    "static/js/main.ffddf20b.chunk.js"
+    "static/js/runtime-main.aa7e53a3.js",
+    "static/js/2.1bce502f.chunk.js",
+    "static/css/main.835191bd.chunk.css",
+    "static/js/main.686d8bdf.chunk.js"
   ]
 }
