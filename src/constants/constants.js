@@ -1,62 +1,51 @@
-import weather from "../assets/weatherIcon.PNG";
-import memori from "../assets/memories.png";
-import stock from "../assets/stockIcon.png";
-import fitness from "../assets/fitness.png";
-import wetBat from "../assets/wetBatIcon2.PNG";
-import editor from "../assets/editor.png";
-
 export const projects = [
   {
-    img: memori,
     title: "Memori",
     description:
-      "Memori is a social networking site for sharing photos of your memories! Upload your own interesting events and like other posts. You will even be recommended other posts!",
-    websiteLink: "https://levimemori.netlify.app/",
-    gitHubLink: "https://github.com/Halvosaurus34/memori",
-    tech: "React, Redux, MongoDB, Mongoose, Express, NodeJS",
+      "Memori is a social networking site for sharing photos of your memories! ",
+    image: "/images/memori.PNG",
+    tags: ["Mongo", "Express", "React", "Node"],
+    source: "https://github.com/Halvosaurus34/memori",
+    visit: "https://levimemori.netlify.app/",
+    id: 0,
   },
   {
-    img: wetBat,
     title: "Wet-Bat Challenge",
     description:
       "A coding challenge to make a travel website where you can create travel quotes and view a list of quotes.",
-    websiteLink: "https://shielded-badlands-63088.herokuapp.com/",
-    gitHubLink: "https://github.com/Halvosaurus34/wet-bat-challenge",
-    tech: "NodeJS, MySQL, Express, ReactJS",
+    image: "/images/wet-bat.PNG",
+    tags: ["React", "JavaScript", "NodeJs", "MySQL", "Express"],
+    source: "https://github.com/Halvosaurus34/wet-bat-challenge",
+    visit: "https://shielded-badlands-63088.herokuapp.com/",
+    id: 1,
   },
   {
-    img: editor,
     title: "JS-Scribblify",
     description: "An interactive coding environment I published to npm!",
-    gitHubLink: "https://github.com/Halvosaurus34/jbook",
-    tech: "Typescript, Redux, ReactJS",
+    image: "/images/jsScribblify.png",
+    tags: ["React", "TypeScript", "Redux"],
+    source: "https://github.com/Halvosaurus34/jbook",
+    visit: null,
+    id: 2,
   },
-
   {
-    img: weather,
-    title: "Weather App",
-    description:
-      "An application featuring real time weather searching with use of local storage.",
-    websiteLink: "https://halvosaurus34.github.io/Weather-App/",
-    gitHubLink: "https://github.com/Halvosaurus34/Weather-App",
-    tech: "API, JavaScript, CSS, HTML, local storage",
-  },
-
-  {
-    img: stock,
     title: "WallStreet Simulator",
     description:
       "My first group project! Buy and sell stocks with simulated currency!",
-    websiteLink: "https://halvosaurus34.github.io/WallStreet-Simulator/",
-    gitHubLink: "https://github.com/Halvosaurus34/Project-1",
-    tech: "API, JavaScript, CSS, HTML",
+    image: "/images/wallstreet.png",
+    tags: ["API", "JavaScript", "CSS", "HTML"],
+    source: "https://github.com/Halvosaurus34/Project-1",
+    visit: "https://halvosaurus34.github.io/WallStreet-Simulator/",
+    id: 3,
   },
+];
+
+export const TimeLineData = [
+  { year: 2013, text: "Started my oil field career at Lonkar Services" },
+  { year: 2015, text: "Joined Versa-Line Services" },
   {
-    img: fitness,
-    title: "Fitness Tracker",
-    description: "A fitness app where I use MongoDB to store info.",
-    websiteLink: "https://salty-eyrie-48528.herokuapp.com/",
-    gitHubLink: "https://github.com/Halvosaurus34/Fitness-Tracker",
-    tech: "Express, MongoDB, HTML, CSS",
+    year: 2017,
+    text: "Transitioned from wireline operator to wireline supervisor",
   },
+  { year: 2020, text: "Started my web development journey!" },
 ];
