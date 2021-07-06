@@ -1,5 +1,16 @@
 export const projects = [
   {
+    title: "Ruby Mercantile",
+    description:
+      "Ruby Mercantile is a MERN stack ecommerce site that I made for my mom.",
+    image: "/images/ruby-mercantile.PNG",
+    tags: ["Mongo", "Express", "React", "Node", "Redux"],
+    source: "https://github.com/Halvosaurus34/ecomm-shop",
+    visit: "https://ruby-mercantile.herokuapp.com/",
+    id: 0,
+  },
+
+  {
     title: "Memori",
     description:
       "Memori is a social networking site for sharing photos of your memories! ",
