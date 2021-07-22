@@ -38,16 +38,6 @@ export const projects = [
     visit: null,
     id: 2,
   },
-  {
-    title: "WallStreet Simulator",
-    description:
-      "My first group project! Buy and sell stocks with simulated currency!",
-    image: "/images/wallstreet.png",
-    tags: ["API", "JavaScript", "CSS", "HTML"],
-    source: "https://github.com/Halvosaurus34/Project-1",
-    visit: "https://halvosaurus34.github.io/WallStreet-Simulator/",
-    id: 3,
-  },
 ];
 
 export const TimeLineData = [
